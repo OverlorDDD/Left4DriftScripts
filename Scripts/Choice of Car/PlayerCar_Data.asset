@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 181e4023d4fd7eb4d8f0eb5d195d8fdd, type: 3}
+  m_Name: PlayerCar_Data
+  m_EditorClassIdentifier: Assembly-CSharp::CarData
+  carName: PlayerCar
+  stats: {fileID: 11400000, guid: 6314176cddeedb740a50223fe3efd59c, type: 2}
+  carPrefab: {fileID: 1465950731365945417, guid: c697b5b881be14f428ca7af973f004c9, type: 3}
+  colorVariants:
+  - {fileID: 2100000, guid: 07f44fe3e9c462146a7769b976c50ec4, type: 2}
+  - {fileID: 2100000, guid: d2344366b80fe3d4f886ec412e0174fa, type: 2}
+  colorNames:
+  - Yellow
+  - Blue
+  speedRating: 5
+  accelerationRating: 5
+  handlingRating: 5
+  driftRating: 5
+  maxSpeed: 35
+  acceleration: 30
+  steeringPower: 98.5

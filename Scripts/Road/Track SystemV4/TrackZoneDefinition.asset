@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c12ffb8fe84dd47b56e797ffc15575, type: 3}
+  m_Name: TrackZoneDefinition
+  m_EditorClassIdentifier: Assembly-CSharp::TrackZoneDefinition
+  zones:
+  - name: Road
+    innerRadius: 0
+    outerRadius: 5
+    type: 0
+    material: {fileID: 2100000, guid: 68b72b923282b184ca86fab01b216611, type: 2}
+    generateMesh: 1
+    generatePhysics: 1
+    surfaceType: 0
+  - name: Shoulder
+    innerRadius: 5
+    outerRadius: 8
+    type: 1
+    material: {fileID: 2100000, guid: 99d02b04b0f4f4942b3920029da13d5b, type: 2}
+    generateMesh: 1
+    generatePhysics: 1
+    surfaceType: 1
+  - name: Barrier
+    innerRadius: 8
+    outerRadius: 9
+    type: 3
+    material: {fileID: 0}
+    generateMesh: 0
+    generatePhysics: 1
+    surfaceType: 9
